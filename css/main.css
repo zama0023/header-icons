@@ -2,26 +2,44 @@ html {
   font-family: Merriweather, serif;
   color: #fff;
   box-sizing: border-box;
-  background-color: #d05c2e;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+header {
+  background-color: #d05c2e;
+  padding: 2rem;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
 h1 {
   text-align: center;
   font-size: 2rem;
+  margin: 0;
 }
 
 img {
-width: 40px;
+  width: 40px;
+}
+
+nav li {
+  text-align: center;
 }
 
 li a {
   text-decoration: none;
   color: #fff;
   font-size: 1.125rem;
+}
+
+ul {
+  padding: 0;
 }
 
 .leftimg {
@@ -34,18 +52,18 @@ li a {
 
 .home {
   float: left;
-  width: 40%;
-  list-style: none;
+  width: 33%;
+  list-style-type: none;
 }
 
 .cereals {
   float: left;
-  width: 40%;
-  list-style: none;
+  width: 33%;
+  list-style-type: none;
 }
 
 .legumes {
   float: left;
-  width: 40%;
-  list-style: none;
+  width: 33%;
+  list-style-type: none;
 }
