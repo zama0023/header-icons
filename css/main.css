@@ -1,5 +1,51 @@
 html {
-  font-family: "Merriweather" serif;
+  font-family: Merriweather, serif;
   color: #fff;
+  box-sizing: border-box;
+  background-color: #d05c2e;
+}
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+img {
+width: 40px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.leftimg {
+  float: left;
+}
+
+.rightimg {
+  float: right;
+}
+
+.home {
+  float: left;
+  width: 40%;
+  list-style: none;
+}
+
+.cereals {
+  float: left;
+  width: 40%;
+  list-style: none;
+}
+
+.legumes {
+  float: left;
+  width: 40%;
+  list-style: none;
 }
