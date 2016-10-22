@@ -67,3 +67,15 @@ ul {
   width: 33%;
   list-style-type: none;
 }
+
+.home:hover {
+  background-color: #a63f38;
+}
+
+.cereals:hover {
+  background-color: #a63f38;
+}
+
+.legumes:hover {
+  background-color: #a63f38;
+}
