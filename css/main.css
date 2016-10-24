@@ -31,7 +31,6 @@ img {
 
 nav li {
   text-align: center;
-  padding: .2em;
   margin: 0 0 .7rem;
   display: inline;
 }
@@ -60,7 +59,7 @@ ul {
 
 .home {
   float: left;
-  width: 33%;
+  width: calc(100% / 3);
   list-style-type: none;
   background-color: #d05c2e;
   padding: .4rem 0;
@@ -68,7 +67,7 @@ ul {
 
 .cereals {
   float: left;
-  width: 33%;
+  width: calc(100% / 3);
   list-style-type: none;
   background-color: #d05c2e;
   padding: .4rem 0;
@@ -76,7 +75,7 @@ ul {
 
 .legumes {
   float: left;
-  width: 33%;
+  width: calc(100% / 3);
   list-style-type: none;
   background-color: #d05c2e;
   padding: .4rem 0;
