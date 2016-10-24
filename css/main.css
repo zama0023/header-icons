@@ -31,15 +31,18 @@ img {
 
 nav li {
   text-align: center;
-  border: 1px solid #a63f38;
   padding: .2em;
   margin: 0 0 .7rem;
+  display: inline;
 }
 
 li a {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   font-size: 1.125rem;
+  border: 1px solid #a63f38;
+
 }
 
 ul {
