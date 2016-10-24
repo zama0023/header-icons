@@ -2,6 +2,8 @@ html {
   font-family: Merriweather, serif;
   color: #fff;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -10,8 +12,7 @@ html {
 
 header {
   background-color: #d05c2e;
-  padding: 2rem;
-  margin: 0;
+  padding: 1rem 0;
 }
 
 body {
@@ -30,6 +31,9 @@ img {
 
 nav li {
   text-align: center;
+  border: 1px solid #a63f38;
+  padding: .2em;
+  margin: 0 0 .7rem;
 }
 
 li a {
@@ -40,6 +44,7 @@ li a {
 
 ul {
   padding: 0;
+  clear: both;
 }
 
 .leftimg {
@@ -54,18 +59,24 @@ ul {
   float: left;
   width: 33%;
   list-style-type: none;
+  background-color: #d05c2e;
+  padding: .4rem 0;
 }
 
 .cereals {
   float: left;
   width: 33%;
   list-style-type: none;
+  background-color: #d05c2e;
+  padding: .4rem 0;
 }
 
 .legumes {
   float: left;
   width: 33%;
   list-style-type: none;
+  background-color: #d05c2e;
+  padding: .4rem 0;
 }
 
 .home:hover {
